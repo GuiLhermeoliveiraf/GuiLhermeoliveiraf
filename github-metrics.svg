@@ -394,13 +394,6 @@
                         </div>
                     </section>
                 </div>
-                <div class="row">
-                    <section class="snippet">
-                        <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,2 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">jhggh<br /></span><span class="token prefix inserted">+</span><span class="token line">a</span></span></code>
-                        </div>
-                    </section>
-                </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
