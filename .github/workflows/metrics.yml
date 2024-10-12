@@ -20,10 +20,10 @@ jobs:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
-          token: ${{ secrets.TOKENGITHUB }}
+          token: ${{ secrets.Metrics }}
 
          # Options
-          user: LucasMaciel7
+          user: GuiLhermeoliveiraf
           template: classic
           
           config_display: large
@@ -35,7 +35,7 @@ jobs:
           # repositories_forks: yes
           repositories: 78
           repositories_affiliations: owner, collaborator
-          commits_authoring: Lucas Maciel Campos, Lucas Maciel, LucasMaciel7, lucasmacielcampos27@gmail.com
+          commits_authoring: Guilherme Guimares de oliveira ferreira, Guilherme Oliveira, GuiLhermeoliveiraf, gguimaraes647@gmail.com
           
           plugin_lines: yes
           plugin_lines_history_limit: 3
