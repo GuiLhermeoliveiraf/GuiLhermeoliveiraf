@@ -20,7 +20,7 @@ jobs:
           #  - read:org  (for organization related metrics)
           #  - read:user (for user related data)
           #  - repo      (optional, if you want to include private repositories)
-          token: ${{ ghp_q9zP2ppzgtP539qBJA5u5RxjoHIxoV2r209 }}
+          token: ${{ secrets.METRICS }}
 
          # Options
           user: GuiLhermeoliveiraf
@@ -72,7 +72,7 @@ jobs:
           uses: lowlighter/metrics@latest
           with:
           filename: metrics.plugin.isocalendar.svg
-          token: ${{ ghp_q9zP2ppzgtP539qBJA5u5RxjoHIxoV2r209 }}
+          token: ${{ secrets.METRICS }}
           base: ""
           plugin_isocalendar: yes
 
