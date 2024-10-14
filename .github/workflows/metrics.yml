@@ -68,11 +68,5 @@ jobs:
           plugin_code: yes
           plugin_code_lines: 6
 
-          name: Half-year calendar
-          uses: lowlighter/metrics@latest
-          with:
-          filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.METRICS }}
-          base: ""
           plugin_isocalendar: yes
 
